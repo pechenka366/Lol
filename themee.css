@@ -241,9 +241,6 @@ lol-uikit-full-page-backdrop {
   filter: drop-shadow(1px 1px 8px #9100FF) !important;
   transition: 0.2s !important;
   cursor: pointer;
-  display: flex; /* Добавлено */
-  justify-content: center; /* Добавлено */
-  align-items: center; /* Добавлено */
 }
 
 .play-button-container:hover{
@@ -261,6 +258,8 @@ lol-uikit-full-page-backdrop {
   content: '▶ ИГРАТЬ С ЛЮБИМЕНЬКИМ' !important;
   visibility: hidden;
   z-index: 0 !important;
+  justify-content: center;
+  text-align: center;
 }
 
 .play-button-text:after{
