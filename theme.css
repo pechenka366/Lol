@@ -253,27 +253,24 @@ lol-uikit-full-page-backdrop {
 }
 
 .play-button-text {
-  width: 100% !important;
   color: #fff !important;
   font-family: 'Open Sans', sans-serif !important;
   position: relative;
+  display: block;
+  white-space: nowrap; /* Запрещаем перенос текста на новую строку */
 }
 
-.play-button-text:before {
-  content: 'РАЗУМ И'; 
-  visibility: visible;
+.play-button-text::before {
+  content: 'РАЗУМ И';
   display: block;
-  position: absolute;
-  left: 0;
 }
 
-.play-button-text:after {
-  content: 'ТЕЛО'; 
-  visibility: visible;
+.play-button-text::after {
+  content: 'ТЕЛО';
   display: block;
-  position: absolute;
-  left: 70px; /* Регулируйте это значение в соответствии с вашим дизайном */
+  margin-top: -1em; /* Регулируйте это значение в соответствии с вашим дизайном */
 }
+
 
 #rcp-fe-viewport-root > .rcp-fe-viewport-overlay > .screen-root[style*="visibility: hidden;"] ~ .play-button-text:after {
   visibility: hidden !important;
