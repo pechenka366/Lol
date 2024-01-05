@@ -224,7 +224,7 @@ lol-uikit-full-page-backdrop {
 
 
 .lol-loading-screen-lol-icon{
-  background-image: url('https://i.ibb.co/W63sfkx/fomlahault.png') !important;
+  background-image: url('https://ibb.co/JzQqfMQ') !important;
   width: 300px !important;
   height: 300px !important;
 }
@@ -250,7 +250,6 @@ lol-uikit-full-page-backdrop {
 
 .play-button-content{
     width: calc(100% - 52px) !important;
-    left: -100px !important;
 }
 
 .play-button-text{
@@ -794,7 +793,7 @@ lol-uikit-flat-button-secondary{
 
 
 .basic-button{
-  left: 200px !important;
+  left: 350px !important;
   height: 48px !important;
   width: 122px !important;
   top: 15px !important;
@@ -838,7 +837,7 @@ lol-uikit-video-state-machine{
 }
 
 .play-button-content{
-  left: -100px !important;
+  left: 30px !important;
 }
 
 :host .parties-status-card.open {
