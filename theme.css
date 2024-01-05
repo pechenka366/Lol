@@ -255,13 +255,13 @@ lol-uikit-full-page-backdrop {
 .play-button-text{
   color: #fff !important;
   font-family: 'Open Sans', sans-serif !important;
-  content: '▶ PLAY' !important;
+  content: '▶ РАЗУМ И ТЕЛО' !important;
   visibility: hidden;
   z-index: 0 !important;
 }
 
 .play-button-text:after{
-    content:'\25B6  PLAY'; 
+    content:'\25B6  РАЗУМ И ТЕЛО'; 
   visibility: visible;
   display: block;
   position: absolute;
@@ -470,13 +470,12 @@ lol-regalia-banner-v2-element{
   /* filter: hue-rotate(-150deg); */
   mix-blend-mode: hue;
   background-color:rgb(101, 25, 224, 0.6);
-  z-index: 1;
-  pointer-events: none;
+  z-index: 2;
 }
 
 .collections-routes{
   position: relative;
-  z-index: 2;
+  z-index: 3;
 }
 
 /* YOUR SHOP */
@@ -795,7 +794,7 @@ lol-uikit-flat-button-secondary{
 
 
 .basic-button{
-  left: 300px !important;
+  left: 350px !important;
   height: 48px !important;
   width: 122px !important;
   top: 15px !important;
