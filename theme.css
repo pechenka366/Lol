@@ -241,6 +241,8 @@ lol-uikit-full-page-backdrop {
   filter: drop-shadow(1px 1px 8px #9100FF) !important;
   transition: 0.2s !important;
   cursor: pointer;
+   margin: 20px;
+   padding: 20px;
 }
 
 .play-button-container:hover{
@@ -250,6 +252,8 @@ lol-uikit-full-page-backdrop {
 
 .play-button-content{
     width: calc(100% - 52px) !important;
+    margin: 20px;
+   padding: 20px;
 }
 
 .play-button-text{
@@ -258,6 +262,8 @@ lol-uikit-full-page-backdrop {
   content: '▶ PLAY' !important;
   visibility: hidden;
   z-index: 0 !important;
+  margin: 20px;
+   padding: 20px;
 }
 
 .play-button-text:after{
@@ -837,7 +843,9 @@ lol-uikit-video-state-machine{
 }
 
 .play-button-content{
-  left: 30px !important;
+  left: 100px !important;
+  margin: 20px;
+   padding: 20px;
 }
 
 :host .parties-status-card.open {
