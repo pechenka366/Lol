@@ -234,7 +234,7 @@ lol-uikit-full-page-backdrop {
 }
 
 .play-button-container {
-  background-image: none !important;
+  background-image: none !important; /*url('http://mmmx22.ct8.pl/play-button-violet.png') !important;*/
   background: linear-gradient(-90deg, #382B7A, #241666) !important;
   border-radius: 50px !important;
   border: 2px solid #9100FF !important;
@@ -249,26 +249,25 @@ lol-uikit-full-page-backdrop {
 }
 
 .play-button-content {
-  width: 100% !important;
+  width: 100%  !important;
 }
 
 .play-button-text {
+  width: 100% !important;
   color: #fff !important;
+  font-size: 15px;
   font-family: 'Open Sans', sans-serif !important;
-  position: relative;
-  display: block;
-  white-space: nowrap; /* Запрещаем перенос текста на новую строку */
+  content: 'РАЗУМ И ТЕЛО' !important;
+  visibility: hidden;
+  z-index: 0 !important;
 }
 
-.play-button-text::before {
-  content: 'РАЗУМ И';
+.play-button-text:after {
+  content: 'РАЗУМ И ТЕЛО'; 
+  visibility: visible;
   display: block;
-}
-
-.play-button-text::after {
-  content: 'ТЕЛО';
-  display: block;
-  margin-top: -1em; /* Регулируйте это значение в соответствии с вашим дизайном */
+  position: absolute;
+  right: 70px !important;
 }
 
 
