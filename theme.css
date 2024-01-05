@@ -224,7 +224,7 @@ lol-uikit-full-page-backdrop {
 
 
 .lol-loading-screen-lol-icon{
-  background-image: url('https://ibb.co/JzQqfMQ.png') !important;
+  background-image: url('https://i.postimg.cc/Pr0PxwBB/f-Vkr-JKUBZ0-Mug-ROtjb-P0-PF6614bjq-Z2f8eq-L4q-O3-preview-no-bg.png') !important;
   width: 300px !important;
   height: 300px !important;
 }
@@ -241,6 +241,7 @@ lol-uikit-full-page-backdrop {
   filter: drop-shadow(1px 1px 8px #9100FF) !important;
   transition: 0.2s !important;
   cursor: pointer;
+  width: 200%; /* Увеличиваем ширину кнопки в 2 раза */
 }
 
 .play-button-container:hover{
