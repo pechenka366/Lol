@@ -260,7 +260,6 @@ lol-uikit-full-page-backdrop {
   content: '▶ РАЗУМ И ТЕЛО' !important;
   visibility: hidden;
   z-index: 0 !important;
-  right: 100px !important;
 }
 
 .play-button-text:after {
