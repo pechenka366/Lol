@@ -256,13 +256,13 @@ lol-uikit-full-page-backdrop {
   width: 100% !important;
   color: #fff !important;
   font-family: 'Open Sans', sans-serif !important;
-  content: '▶ РАЗУМ И ТЕЛО' !important;
+  content: 'РАЗУМ И ТЕЛО' !important;
   visibility: hidden;
   z-index: 0 !important;
 }
 
 .play-button-text:after {
-  content: '\25B6  РАЗУМ И ТЕЛО'; 
+  content: 'РАЗУМ И ТЕЛО'; 
   visibility: visible;
   display: block;
   position: absolute;
