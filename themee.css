@@ -242,7 +242,6 @@ lol-uikit-full-page-backdrop {
   filter: drop-shadow(1px 1px 8px #9100FF) !important;
   transition: 0.2s !important;
   cursor: pointer;
-  display: flexbox;
 }
 
 .play-button-container:hover{
@@ -797,7 +796,7 @@ lol-uikit-flat-button-secondary{
 
 
 .basic-button{
-  left: 350px !important;
+  left: 200px !important;
   height: 48px !important;
   width: 122px !important;
   top: 15px !important;
@@ -838,10 +837,6 @@ lol-uikit-video-state-machine{
 
 .main-navigation-menu-item{
   filter: hue-rotate(-131deg);
-}
-
-.play-button-content{
-  left: 30px !important;
 }
 
 :host .parties-status-card.open {
