@@ -233,7 +233,7 @@ lol-uikit-full-page-backdrop {
   margin-top: -60px !important;
 }
 
-.play-button-container{
+.play-button-container {
   background-image: none !important; /*url('http://mmmx22.ct8.pl/play-button-violet.png') !important;*/
   background: linear-gradient(-90deg, #382B7A, #241666) !important;
   border-radius: 50px !important;
@@ -241,32 +241,38 @@ lol-uikit-full-page-backdrop {
   filter: drop-shadow(1px 1px 8px #9100FF) !important;
   transition: 0.2s !important;
   cursor: pointer;
+  position: relative; /* Добавлено */
 }
 
-.play-button-container:hover{
+.play-button-container:hover {
   filter: drop-shadow(1px 1px 15px #9100FF) !important;
   transition: 0.2s !important;
 }
 
-.play-button-content{
-    width: calc(100% - 52px) !important;
+.play-button-content {
+  width: calc(100% - 52px) !important;
 }
 
-.play-button-text{
+.play-button-text {
   color: #fff !important;
   font-family: 'Open Sans', sans-serif !important;
   content: '▶ ИГРАТЬ С ЛЮБИМЕНЬКИМ' !important;
   visibility: hidden;
   z-index: 0 !important;
+  position: absolute; /* Добавлено */
+  top: 50%; /* Добавлено */
+  left: 50%; /* Добавлено */
+  transform: translate(-50%, -50%); /* Добавлено */
 }
 
-.play-button-text:after{
-    content:'\25B6  ИГРАТЬ С ЛЮБИМЕНЬКИМ'; 
+.play-button-text:after {
+  content: '\25B6  ИГРАТЬ С ЛЮБИМЕНЬКИМ';
   visibility: visible;
   display: block;
   position: absolute;
   right: 11px !important;
 }
+
 
 #rcp-fe-viewport-root > .rcp-fe-viewport-overlay > .screen-root[style*="visibility: hidden;"] ~ .play-button-text:after {
   visibility: hidden !important;
