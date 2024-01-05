@@ -264,7 +264,7 @@ lol-uikit-full-page-backdrop {
 
 .play-button-text:after {
   content: 'ИГРАТЬ С ЛЮБИМЕНЬКИМ'; 
-  width: 50% !important;
+  width: 80% !important;
   visibility: visible;
   font-size: 15 !important;
   display: block;
