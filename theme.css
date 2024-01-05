@@ -264,7 +264,9 @@ lol-uikit-full-page-backdrop {
 
 .play-button-text:after {
   content: 'РАЗУМ И ТЕЛО'; 
+  width: 100% !important;
   visibility: visible;
+  font-size: 15;
   display: block;
   position: absolute;
   right: 70px !important;
