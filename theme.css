@@ -241,7 +241,6 @@ lol-uikit-full-page-backdrop {
   filter: drop-shadow(1px 1px 8px #9100FF) !important;
   transition: 0.2s !important;
   cursor: pointer;
-  width: 200%; /* Увеличиваем ширину кнопки в 2 раза */
 }
 
 .play-button-container:hover{
@@ -250,19 +249,19 @@ lol-uikit-full-page-backdrop {
 }
 
 .play-button-content{
-    width: calc(100% - 52px) !important;
+    width: calc(100% - 102px) !important;
 }
 
 .play-button-text{
   color: #fff !important;
   font-family: 'Open Sans', sans-serif !important;
-  content: '▶ ИГРАТЬ С ЛЮБИМЕНЬКИМ' !important;
+  content: '▶ PLAY' !important;
   visibility: hidden;
   z-index: 0 !important;
 }
 
 .play-button-text:after{
-    content:'\25B6  ИГРАТЬ С ЛЮБИМЕНЬКИМ'; 
+    content:'\25B6  PLAY'; 
   visibility: visible;
   display: block;
   position: absolute;
