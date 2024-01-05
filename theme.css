@@ -471,7 +471,7 @@ lol-regalia-banner-v2-element{
   mix-blend-mode: hue;
   background-color:rgb(101, 25, 224, 0.6);
   z-index: 1;
-  
+  pointer-events: none;
 }
 
 .collections-routes{
@@ -497,6 +497,7 @@ lol-regalia-banner-v2-element{
   mix-blend-mode: hue;
   background-color:rgb(101, 25, 224, 0.8);
   z-index: 1;
+  
 }
 
 .yourshop-content-wrapper{
