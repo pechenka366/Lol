@@ -257,13 +257,13 @@ lol-uikit-full-page-backdrop {
   color: #fff !important;
   font-size: 15 !important;
   font-family: 'Open Sans', sans-serif !important;
-  content: 'РАЗУМ И ТЕЛО' !important;
+  content: 'ИГРАТЬ С ЛЮБИМЕНЬКИМ' !important;
   visibility: hidden;
   z-index: 0 !important;
 }
 
 .play-button-text:after {
-  content: 'РАЗУМ И ТЕЛО'; 
+  content: 'ИГРАТЬ С ЛЮБИМЕНЬКИМ'; 
   width: 50% !important;
   visibility: visible;
   font-size: 15 !important;
