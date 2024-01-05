@@ -224,7 +224,7 @@ lol-uikit-full-page-backdrop {
 
 
 .lol-loading-screen-lol-icon{
-  background-image: url('https://i.postimg.cc/Pr0PxwBB/f-Vkr-JKUBZ0-Mug-ROtjb-P0-PF6614bjq-Z2f8eq-L4q-O3-preview-no-bg.png') !important;
+  background-image: url('https://i.ibb.co/W63sfkx/fomlahault.png') !important;
   width: 300px !important;
   height: 300px !important;
 }
@@ -235,7 +235,6 @@ lol-uikit-full-page-backdrop {
 
 .play-button-container{
   background-image: none !important; /*url('http://mmmx22.ct8.pl/play-button-violet.png') !important;*/
-  width: 300px !important;
   background: linear-gradient(-90deg, #382B7A, #241666) !important;
   border-radius: 50px !important;
   border: 2px solid #9100FF!important;
@@ -250,7 +249,7 @@ lol-uikit-full-page-backdrop {
 }
 
 .play-button-content{
-    width: 100% !important;
+    width: calc(100% - 52px) !important;
 }
 
 .play-button-text{
@@ -259,16 +258,14 @@ lol-uikit-full-page-backdrop {
   content: '▶ PLAY' !important;
   visibility: hidden;
   z-index: 0 !important;
-  justify-content: center;
-  text-align: center;
-  display: flexbox;
 }
 
 .play-button-text:after{
-  content:'\25B6  PLAY';
+    content:'\25B6  PLAY'; 
   visibility: visible;
   display: block;
   position: absolute;
+  right: 11px !important;
 }
 
 #rcp-fe-viewport-root > .rcp-fe-viewport-overlay > .screen-root[style*="visibility: hidden;"] ~ .play-button-text:after {
@@ -474,7 +471,6 @@ lol-regalia-banner-v2-element{
   mix-blend-mode: hue;
   background-color:rgb(101, 25, 224, 0.6);
   z-index: 1;
-   pointer-events: none; /* Добавлено */
 }
 
 .collections-routes{
@@ -797,7 +793,7 @@ lol-uikit-flat-button-secondary{
 
 
 .basic-button{
-  left: 200px !important;
+  left: 3000px !important;
   height: 48px !important;
   width: 122px !important;
   top: 15px !important;
@@ -838,6 +834,10 @@ lol-uikit-video-state-machine{
 
 .main-navigation-menu-item{
   filter: hue-rotate(-131deg);
+}
+
+.play-button-content{
+  left: 30px !important;
 }
 
 :host .parties-status-card.open {
