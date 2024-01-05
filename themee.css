@@ -241,6 +241,7 @@ lol-uikit-full-page-backdrop {
   filter: drop-shadow(1px 1px 8px #9100FF) !important;
   transition: 0.2s !important;
   cursor: pointer;
+  display: flexbox;
 }
 
 .play-button-container:hover{
@@ -249,7 +250,7 @@ lol-uikit-full-page-backdrop {
 }
 
 .play-button-content{
-    width: calc(100% - 42px) !important;
+    width: 100% !important;
 }
 
 .play-button-text{
@@ -260,6 +261,7 @@ lol-uikit-full-page-backdrop {
   z-index: 0 !important;
   justify-content: center;
   text-align: center;
+  display: flexbox;
 }
 
 .play-button-text:after{
