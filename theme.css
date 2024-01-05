@@ -259,7 +259,7 @@ lol-uikit-full-page-backdrop {
 .play-button-text {
   color: #fff !important;
   font-family: 'Open Sans', sans-serif !important;
-  content: '▶ ИГРАТЬ С ЛЮБИМЕНЬКИМ' !important;
+  content: '▶ РАЗУМ И ТЕЛО' !important;
   visibility: hidden;
   z-index: 0 !important;
   position: relative; /* Добавлено */
@@ -267,7 +267,7 @@ lol-uikit-full-page-backdrop {
 }
 
 .play-button-text:after {
-  content: '\25B6  ИГРАТЬ С ЛЮБИМЕНЬКИМ'; 
+  content: '\25B6  РАЗУМ И ТЕЛО'; 
   visibility: visible;
   display: block;
   position: absolute;
