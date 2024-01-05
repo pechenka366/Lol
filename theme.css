@@ -249,10 +249,11 @@ lol-uikit-full-page-backdrop {
 }
 
 .play-button-content {
-  width: calc(100% - 26px) !important;
+  width: 100%  !important;
 }
 
 .play-button-text {
+  width: 100% !important;
   color: #fff !important;
   font-family: 'Open Sans', sans-serif !important;
   content: '▶ РАЗУМ И ТЕЛО' !important;
@@ -838,9 +839,9 @@ lol-uikit-video-state-machine{
   filter: hue-rotate(-131deg);
 }
 
-.play-button-content{
+/*.play-button-content{
   left: 30px !important;
-}
+}*/
 
 :host .parties-status-card.open {
     filter: hue-rotate(140deg) !important;
