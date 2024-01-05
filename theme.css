@@ -255,7 +255,7 @@ lol-uikit-full-page-backdrop {
 .play-button-text {
   width: 100% !important;
   color: #fff !important;
-  font-size: 15;
+  font-size: 15 !important;
   font-family: 'Open Sans', sans-serif !important;
   content: 'РАЗУМ И ТЕЛО' !important;
   visibility: hidden;
@@ -266,7 +266,7 @@ lol-uikit-full-page-backdrop {
   content: 'РАЗУМ И ТЕЛО'; 
   width: 70% !important;
   visibility: visible;
-  font-size: 15;
+  font-size: 15 !important;
   display: block;
   position: absolute;
   right: 70px !important;
