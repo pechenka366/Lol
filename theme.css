@@ -273,10 +273,17 @@ lol-uikit-full-page-backdrop {
   font-size: 15 !important;
   display: block;
   position: absolute;
-  right: 70px !important;
+  right: 80px !important;
   display: flex; /* Добавлено */
   justify-content: center; /* Добавлено */
   align-items: center;
+}
+
+.basic-button{
+  left: 300px !important;
+  height: 48px !important;
+  width: 160px !important;
+  top: 15px !important;
 }
 /*
 .play-button-container {
@@ -841,14 +848,6 @@ lol-uikit-flat-button-secondary{
     content: url(http://mmmx22.ct8.pl/bc.jpg) !important;
   width: auto !important;
 }*/
-
-
-.basic-button{
-  left: 350px !important;
-  height: 48px !important;
-  width: 160px !important;
-  top: 15px !important;
-}
 
 .left-nav-menu{
     position: relative !important;
