@@ -263,8 +263,8 @@ lol-uikit-full-page-backdrop {
   visibility: hidden;
   z-index: 0 !important;
   display: flex; /* Добавлено */
-  justify-content: center; /* Добавлено */
-  align-items: center;
+  justify-content: left; /* Добавлено */
+  align-items: left;
   right: -20px !important;
 }
 
@@ -276,8 +276,8 @@ lol-uikit-full-page-backdrop {
   position: absolute;
   right: -20px !important; /* Изменено значение right */
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
 }
 
 
