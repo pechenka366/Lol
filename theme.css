@@ -251,7 +251,7 @@ lol-uikit-full-page-backdrop {
 
 .play-button-content {
   width: 100%  !important;
-  right: -30px !important;
+  left: 20px !important;
 }
 
 .play-button-text {
@@ -265,7 +265,7 @@ lol-uikit-full-page-backdrop {
   display: flex !important; /* Добавлено */
   justify-content: left !important; /* Добавлено */
   align-items: left !important;
-  right: -20px !important;
+  left: 20px !important;
 }
 
 .play-button-text:after {
@@ -274,7 +274,7 @@ lol-uikit-full-page-backdrop {
   visibility: visible;
   display: block;
   position: absolute;
-  right: -20px !important; /* Изменено значение right */
+  left: 20px !important; /* Изменено значение right */
   display: flex !important;
   justify-content: left !important;
   align-items: left !important;
