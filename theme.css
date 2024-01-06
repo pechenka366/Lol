@@ -233,68 +233,17 @@ lol-uikit-full-page-backdrop {
   margin-top: -60px !important;
 }
 
-.play-button-container {
-  background-image: none !important; /*url('http://mmmx22.ct8.pl/play-button-violet.png') !important;*/
-  background: linear-gradient(-90deg, #382B7A, #241666) !important;
-  border-radius: 50px !important;
-  border: 2px solid #9100FF !important;
-  filter: drop-shadow(1px 1px 8px #9100FF) !important;
-  transition: 0.2s !important;
-  cursor: pointer;
-  width: 350px;
-}
-
-.play-button-container:hover {
-  filter: drop-shadow(1px 1px 15px #9100FF) !important;
-  transition: 0.2s !important;
-}
-
-.play-button-content {
-  width: 100%  !important;
-  left: 30px !important;
-  margin-left: -20px !important;
-}
-
-.play-button-text {
-  width: 100% !important;
-  color: #fff !important;
-  font-size: 15 !important;
-  font-family: 'Open Sans', sans-serif !important;
-  content: 'ИГРАТЬ С ЛЮБИМЕНЬКИМ' !important;
-  visibility: hidden;
-  z-index: 0 !important;
-  display: flex ; /* Добавлено */
-  justify-content: center ; /* Добавлено */
-  align-items: center ;
-  left: 30px !important;
-  margin-left: -30px !important;
-}
-
-.play-button-text:after {
-  content: 'ИГРАТЬ С ЛЮБИМЕНЬКИМ'; 
-  width: 100% !important;
-  visibility: visible;
-  display: block;
-  position: absolute;
-  left: 30px !important; /* Изменено значение right */
-  display: flex ;
-  justify-content: center ;
-  align-items: center ;
-  margin-left: -30px !important;
-}
-
-
 .basic-button{
-  left: 300px !important;
+  left: 350px !important;
   height: 48px !important;
-  width: 160px !important;
+  width: 122px !important;
   top: 15px !important;
 }
 
-/*
+
 .play-button-container {
   background-image: none !important; /*url('http://mmmx22.ct8.pl/play-button-violet.png') !important;*/
-  /*background: linear-gradient(-90deg, #382B7A, #241666) !important;
+  background: linear-gradient(-90deg, #382B7A, #241666) !important;
   border-radius: 50px !important;
   border: 2px solid #9100FF !important;
   filter: drop-shadow(1px 1px 8px #9100FF) !important;
@@ -329,7 +278,7 @@ lol-uikit-full-page-backdrop {
   display: block;
   position: absolute;
   right: 70px !important;
-}*/
+}
 
 #rcp-fe-viewport-root > .rcp-fe-viewport-overlay > .screen-root[style*="visibility: hidden;"] ~ .play-button-text:after {
   visibility: hidden !important;
