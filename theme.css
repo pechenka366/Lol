@@ -251,7 +251,7 @@ lol-uikit-full-page-backdrop {
 
 .play-button-content {
   width: 100%  !important;
-  left: 20px !important;
+  left: 30px !important;
 }
 
 .play-button-text {
@@ -262,10 +262,10 @@ lol-uikit-full-page-backdrop {
   content: 'ИГРАТЬ С ЛЮБИМЕНЬКИМ' !important;
   visibility: hidden;
   z-index: 0 !important;
-  display: flex !important; /* Добавлено */
-  justify-content: left !important; /* Добавлено */
-  align-items: left !important;
-  left: 20px !important;
+  display: flex ; /* Добавлено */
+  justify-content: center ; /* Добавлено */
+  align-items: center ;
+  left: 30px !important;
 }
 
 .play-button-text:after {
@@ -274,10 +274,10 @@ lol-uikit-full-page-backdrop {
   visibility: visible;
   display: block;
   position: absolute;
-  left: 20px !important; /* Изменено значение right */
-  display: flex !important;
-  justify-content: left !important;
-  align-items: left !important;
+  left: 30px !important; /* Изменено значение right */
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
 }
 
 
