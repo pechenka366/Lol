@@ -262,9 +262,9 @@ lol-uikit-full-page-backdrop {
   content: 'ИГРАТЬ С ЛЮБИМЕНЬКИМ' !important;
   visibility: hidden;
   z-index: 0 !important;
-  display: flex; /* Добавлено */
-  justify-content: left; /* Добавлено */
-  align-items: left;
+  display: flex !important; /* Добавлено */
+  justify-content: left !important; /* Добавлено */
+  align-items: left !important;
   right: -20px !important;
 }
 
@@ -275,9 +275,9 @@ lol-uikit-full-page-backdrop {
   display: block;
   position: absolute;
   right: -20px !important; /* Изменено значение right */
-  display: flex;
-  justify-content: left;
-  align-items: left;
+  display: flex !important;
+  justify-content: left !important;
+  align-items: left !important;
 }
 
 
