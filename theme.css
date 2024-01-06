@@ -251,6 +251,7 @@ lol-uikit-full-page-backdrop {
 
 .play-button-content {
   width: 100%  !important;
+  right: 30px !important;
 }
 
 .play-button-text {
@@ -264,6 +265,7 @@ lol-uikit-full-page-backdrop {
   display: flex; /* Добавлено */
   justify-content: center; /* Добавлено */
   align-items: center;
+  right: 30px !important;
 }
 
 .play-button-text:after {
