@@ -273,7 +273,7 @@ lol-uikit-full-page-backdrop {
   font-size: 15 !important;
   display: block;
   position: absolute;
-  right: 80px !important;
+  right: 100px !important;
   display: flex; /* Добавлено */
   justify-content: center; /* Добавлено */
   align-items: center;
