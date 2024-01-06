@@ -252,7 +252,7 @@ lol-uikit-full-page-backdrop {
 .play-button-content {
   width: 100%  !important;
   left: 30px !important;
-  margin-left: 20px !important;
+  margin-left: -20px !important;
 }
 
 .play-button-text {
@@ -267,12 +267,12 @@ lol-uikit-full-page-backdrop {
   justify-content: center ; /* Добавлено */
   align-items: center ;
   left: 30px !important;
-  margin-left: 30px !important;
+  margin-left: -30px !important;
 }
 
 .play-button-text:after {
   content: 'ИГРАТЬ С ЛЮБИМЕНЬКИМ'; 
-  width: 80% !important;
+  width: 100% !important;
   visibility: visible;
   display: block;
   position: absolute;
@@ -280,7 +280,7 @@ lol-uikit-full-page-backdrop {
   display: flex ;
   justify-content: center ;
   align-items: center ;
-  margin-left: 30px !important;
+  margin-left: -30px !important;
 }
 
 
