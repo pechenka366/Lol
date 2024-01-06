@@ -265,7 +265,7 @@ lol-uikit-full-page-backdrop {
   display: flex; /* Добавлено */
   justify-content: center; /* Добавлено */
   align-items: center;
-  right: 0px !important;
+  right: -20px !important;
 }
 
 .play-button-text:after {
@@ -274,7 +274,7 @@ lol-uikit-full-page-backdrop {
   visibility: visible;
   display: block;
   position: absolute;
-  right: 0px !important; /* Изменено значение right */
+  right: -20px !important; /* Изменено значение right */
   display: flex;
   justify-content: center;
   align-items: center;
