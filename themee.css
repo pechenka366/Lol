@@ -233,43 +233,103 @@ lol-uikit-full-page-backdrop {
   margin-top: -60px !important;
 }
 
-.play-button-container{
+.play-button-container {
   background-image: none !important; /*url('http://mmmx22.ct8.pl/play-button-violet.png') !important;*/
-  width: 300px !important;
   background: linear-gradient(-90deg, #382B7A, #241666) !important;
   border-radius: 50px !important;
-  border: 2px solid #9100FF!important;
+  border: 2px solid #9100FF !important;
+  filter: drop-shadow(1px 1px 8px #9100FF) !important;
+  transition: 0.2s !important;
+  cursor: pointer;
+  width: 350px;
+}
+
+.play-button-container:hover {
+  filter: drop-shadow(1px 1px 15px #9100FF) !important;
+  transition: 0.2s !important;
+}
+
+.play-button-content {
+  width: 100%  !important;
+  left: 30px !important;
+  margin-left: -25px !important;
+}
+
+.play-button-text {
+  width: 100% !important;
+  color: #fff !important;
+  font-size: 15 !important;
+  font-family: 'Open Sans', sans-serif !important;
+  content: 'ИГРАТЬ С ЛЮБИМЕНЬКИМ' !important;
+  visibility: hidden;
+  z-index: 0 !important;
+  display: flex ; /* Добавлено */
+  justify-content: center ; /* Добавлено */
+  align-items: center ;
+  left: 30px !important;
+  margin-left: -35px !important;
+}
+
+.play-button-text:after {
+  content: 'ИГРАТЬ С ЛЮБИМЕНЬКИМ'; 
+  width: 100% !important;
+  visibility: visible;
+  display: block;
+  position: absolute;
+  left: 30px !important; /* Изменено значение right */
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+  margin-left: -35px !important;
+}
+
+
+.basic-button{
+  left: 300px !important;
+  height: 48px !important;
+  width: 160px !important;
+  top: 15px !important;
+}
+
+/*
+.play-button-container {
+  background-image: none !important; /*url('http://mmmx22.ct8.pl/play-button-violet.png') !important;*/
+  /*background: linear-gradient(-90deg, #382B7A, #241666) !important;
+  border-radius: 50px !important;
+  border: 2px solid #9100FF !important;
   filter: drop-shadow(1px 1px 8px #9100FF) !important;
   transition: 0.2s !important;
   cursor: pointer;
 }
 
-.play-button-container:hover{
+.play-button-container:hover {
   filter: drop-shadow(1px 1px 15px #9100FF) !important;
   transition: 0.2s !important;
 }
 
-.play-button-content{
-    width: 100% !important;
+.play-button-content {
+  width: 100%  !important;
 }
 
-.play-button-text{
+.play-button-text {
+  width: 100% !important;
   color: #fff !important;
+  font-size: 15 !important;
   font-family: 'Open Sans', sans-serif !important;
-  content: '▶ ИГРАТЬ С ЛЮБИМЕНЬКИМ' !important;
+  content: 'РАЗУМ И ТЕЛО' !important;
   visibility: hidden;
   z-index: 0 !important;
-  justify-content: center;
-  text-align: center;
-  display: flexbox;
 }
 
-.play-button-text:after{
-  content:'\25B6  ИГРАТЬ С ЛЮБИМЕНЬКИМ';
+.play-button-text:after {
+  content: 'РАЗУМ И ТЕЛО'; 
+  width: 50% !important;
   visibility: visible;
+  font-size: 15 !important;
   display: block;
   position: absolute;
-}
+  right: 70px !important;
+}*/
 
 #rcp-fe-viewport-root > .rcp-fe-viewport-overlay > .screen-root[style*="visibility: hidden;"] ~ .play-button-text:after {
   visibility: hidden !important;
@@ -473,12 +533,12 @@ lol-regalia-banner-v2-element{
   /* filter: hue-rotate(-150deg); */
   mix-blend-mode: hue;
   background-color:rgb(101, 25, 224, 0.6);
-  z-index: 1;
+  z-index: 2;
 }
 
 .collections-routes{
   position: relative;
-  z-index: 2;
+  z-index: 3;
 }
 
 /* YOUR SHOP */
@@ -499,6 +559,7 @@ lol-regalia-banner-v2-element{
   mix-blend-mode: hue;
   background-color:rgb(101, 25, 224, 0.8);
   z-index: 1;
+  
 }
 
 .yourshop-content-wrapper{
@@ -794,14 +855,6 @@ lol-uikit-flat-button-secondary{
   width: auto !important;
 }*/
 
-
-.basic-button{
-  left: 200px !important;
-  height: 48px !important;
-  width: 122px !important;
-  top: 15px !important;
-}
-
 .left-nav-menu{
     position: relative !important;
     margin-left: -200px !important;
@@ -838,6 +891,10 @@ lol-uikit-video-state-machine{
 .main-navigation-menu-item{
   filter: hue-rotate(-131deg);
 }
+
+/*.play-button-content{
+  left: 30px !important;
+}*/
 
 :host .parties-status-card.open {
     filter: hue-rotate(140deg) !important;
