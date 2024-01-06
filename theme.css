@@ -270,14 +270,14 @@ lol-uikit-full-page-backdrop {
   content: 'ИГРАТЬ С ЛЮБИМЕНЬКИМ'; 
   width: 80% !important;
   visibility: visible;
-  font-size: 15 !important;
   display: block;
   position: absolute;
-  right: 10px !important;
-  display: flex; /* Добавлено */
-  justify-content: center; /* Добавлено */
+  right: 30px !important; /* Изменено значение right */
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
+
 
 .basic-button{
   left: 300px !important;
